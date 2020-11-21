@@ -1,0 +1,51 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+/* ********************************* Navbar Section ********************************* */
+/* #nav{
+padding: 15px;
+} */
+.navbar{
+  padding: 3rem;
+}
+
+.navbar-toggler {
+    border-color: rgb(255,102,203);
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* ******************************* Number Section ********************************** */
+#number{
+background-color: #389393;
+padding: 3.5rem 0;
+}
+.numberImage{
+  background-color: #ebebeb;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin: 2rem;
+  padding: 0.8rem;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+.numberImage:hover{
+  background-color: #aaaaaa;
+  transition: 0.3s;
+  border: 4px solid #000;
+}
+
+/* ********************************* Alphabate Section ******************************** */
+
+#alphabate{
+background-color: #fa7f72;
+padding: 3.5rem 0;
+}
+.alphabate{
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+}
